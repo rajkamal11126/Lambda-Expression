@@ -25,5 +25,9 @@ public class MathOperationApp {
 		System.out.println("Division is: " + divide.calculate(6, 3));
 		System.out.println("Subtraction is: " + subtract.calculate(6, 3));
 
+		IMathFunction.printResult(6, 3, "Addition", add);
+		IMathFunction.printResult(6, 3, "Multiplication", multiply);
+		IMathFunction.printResult(6, 3, "Division", divide);
+		IMathFunction.printResult(6, 3, "Subtraction", subtract);
 	}
 }
